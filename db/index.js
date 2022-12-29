@@ -9,6 +9,7 @@ const MONGO_URI =
   process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/portfolioPage";
 
 mongoose
+  .set('strictQuery', true)
   .connect(MONGO_URI)
   .then((x) => {
     const databaseName = x.connections[0].name;
