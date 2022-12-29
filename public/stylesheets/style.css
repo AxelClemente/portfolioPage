@@ -19,7 +19,5 @@ input{
   z-index: 100; /* z-index: this comment will be always on top */
 }
 
-body {
-  font: 14px "Arial, sans-serif";
-}
+
 
