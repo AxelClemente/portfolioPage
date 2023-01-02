@@ -30,7 +30,7 @@ app.use("/", indexRoutes);
 const authRoutes = require("./routes/auth.routes");
 app.use("/auth", authRoutes);
 
-const gamesRoutes = require('./routes/games.routes')
+const gamesRoutes = require('./routes/gaming.routes')
 app.use('/', gamesRoutes)
 
 

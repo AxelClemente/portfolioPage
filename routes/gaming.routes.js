@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 // 2- Routes 
-router.get('/games',(req, res)=>{
+router.get('/gaming',(req, res)=>{
         res.render("games") 
 })
 
