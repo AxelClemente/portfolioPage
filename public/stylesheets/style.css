@@ -155,6 +155,7 @@ input{
   left: 0;
   z-index: var(--z-fixed);
   background-color:var(--body-color);
+  padding-bottom: 4rem;
 }
 
 /*======== Nav ========*/
@@ -188,7 +189,7 @@ input{
 @media screen and (max-width: 767px) {
   .nav__menu{
     position: fixed;
-    bottom: -100%;
+    /* bottom: -100%; */
     left: 0;
     width: 100%;
     background-color:var(--body-color) ;
@@ -648,4 +649,9 @@ input{
 .services__modal-icon{
   color: var(--first-color);
   margin-right: var(--mb-0-25);
+}
+
+.active-modal{
+  opacity: 1;
+  visibility: visible;
 }
